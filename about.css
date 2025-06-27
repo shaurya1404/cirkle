@@ -1,0 +1,164 @@
+/* About Page Specific Styles */
+.about-hero-section {
+  background: var(--charcoal);
+  padding-top: 7rem;
+  padding-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  width: 100vw;
+}
+.about-hero-content {
+  width: 100%;
+  max-width: 900px;
+  text-align: left;
+  margin-bottom: 2.5rem;
+  padding-left: 2vw;
+}
+.about-hero-title {
+  font-family: 'Cardo', serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  color: var(--white);
+  margin-bottom: 0.2em;
+  letter-spacing: -0.01em;
+}
+.about-hero-subtitle {
+  font-family: 'Cardo', serif;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #b0b0b0;
+  margin-top: 0;
+  letter-spacing: -0.01em;
+}
+.about-hero-image-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.about-hero-image {
+  width: 500px;
+  max-width: 90vw;
+  border-radius: 2rem;
+  object-fit: cover;
+  background: #111;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
+  margin: 0 auto;
+  display: block;
+}
+.about-card-section {
+  background: var(--charcoal);
+  padding: 2.5rem 0;
+}
+.about-card-section > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+.about-card-section img {
+  margin: 0 auto;
+  display: block;
+}
+.about-feature-section {
+  width: 100vw;
+  background: var(--charcoal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 0 4rem 0;
+}
+.about-feature-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 2.5rem;
+  max-width: 900px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background: #181818;
+  border-radius: 2rem;
+  padding: 2.5rem 2rem;
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
+}
+.about-feature-text {
+  flex: 1;
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 1.5rem;
+}
+.about-feature-title {
+  font-family: 'Cardo', serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-bottom: 0.7rem;
+  color: var(--white);
+}
+.about-feature-desc {
+  font-family: 'Cardo', serif;
+  font-size: 1.1rem;
+  color: #b0b0b0;
+  margin-bottom: 0;
+}
+.about-feature-img-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-feature-img {
+  width: 220px;
+  max-width: 90vw;
+  border-radius: 1rem;
+  object-fit: cover;
+  display: block;
+}
+.footer-trademark {
+  font-size: 0.7em;
+  vertical-align: super;
+  margin-left: 0.15em;
+  color: #b0b0b0;
+}
+@media (max-width: 900px) {
+  .about-feature-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 0.5rem;
+  }
+  .about-feature-text {
+    padding-right: 0;
+    align-items: center;
+    text-align: center;
+  }
+}
+@media (max-width: 700px) {
+  .about-hero-content {
+    padding-left: 0.5rem;
+    max-width: 98vw;
+  }
+  .about-hero-title {
+    font-size: 1.5rem;
+  }
+  .about-hero-subtitle {
+    font-size: 1.1rem;
+  }
+  .about-hero-image {
+    width: 98vw;
+    border-radius: 1rem;
+  }
+  .about-card-section > div {
+    padding: 1.2rem 0.5rem;
+  }
+  .about-feature-img {
+    width: 98vw;
+    border-radius: 0.7rem;
+  }
+  .about-feature-section {
+    padding: 1.2rem 0 2rem 0;
+  }
+} 
